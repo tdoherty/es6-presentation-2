@@ -1,0 +1,19 @@
+<code>
+    <pre>
+    let obj1 = {
+      foo() {
+        return 'bar';
+      }
+    };
+
+    let obj2 = {
+      bar: '2'
+    }
+
+    <span class="fragment">Object.setPrototypeOf(obj2, obj1);</span>
+    <span class="fragment">obj2.foo()   // 'bar'</span>
+
+    <span class="fragment">* Object.create() is is still preferred</span>
+
+    </pre>
+</code>
