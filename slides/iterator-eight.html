@@ -1,0 +1,21 @@
+<code>
+    <pre>
+    function iterable() {
+      let arr = [1, 2, 3], idx = 0;
+      return {
+        [Symbol.iterator]() {
+          return this;
+        },
+        next() {
+          if (idx < arr.length) {
+            return { value: arr[idx++] };
+          } else {
+            return { done: true };
+          }
+        }
+      };
+    }
+
+    <span class="fragment">[...iterable()]; // [1, 2, 3]</span>
+    </pre>
+</code>

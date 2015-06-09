@@ -1,0 +1,17 @@
+<code>
+    <pre>
+    let str = 'Hello';
+    let iter = str[Symbol.iterator]();
+
+    <span class="fragment">iter.next();
+    // { value: 'H', done: false }</span>
+    <span class="fragment">iter.next();
+    // { value: 'e', done: false }</span>
+    <span class="fragment">iter.next();
+    // { value: 'l', done: false }</span>
+    <span class="fragment">iter.next();
+    // { value: 'l', done: false }</span>
+    <span class="fragment">iter.next();
+    // { value: 'o', done: true }</span>
+    </pre>
+</code>
