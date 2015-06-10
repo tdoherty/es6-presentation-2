@@ -1,21 +1,22 @@
 <code>
-    <pre>
-    function iterable() {
-      let arr = [1, 2, 3], idx = 0;
-      return {
-        [Symbol.iterator]() {
-          return this;
-        },
-        next() {
-          if (idx < arr.length) {
-            return { value: arr[idx++] };
-          } else {
-            return { done: true };
-          }
+<pre>
+let iterable = {
+  [Symbol.iterator]() {
+    var n = 3, i = 1, r;
+    return {
+      next() {
+        r = {value: undefined, done: true};
+        if (i <= n) {
+          r.value = i++;
+          r.done = false;
         }
-      };
+        return r;
+      }
     }
+  }
+};
 
-    <span class="fragment">[...iterable()]; // [1, 2, 3]</span>
-    </pre>
+<span class="fragment">[...iterable];
+// [1, 2, 3]</span>
+</pre>
 </code>

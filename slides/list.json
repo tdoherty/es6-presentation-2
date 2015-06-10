@@ -45,5 +45,66 @@
     "iterator-six.html",
     "iterator-seven.html",
     "iterator-eight-b.html",
-    "iterator-eight.html"
+    "iterator-eight.html",
+    "generator-one.html",
+    "generator-two-b.html",
+    "generator-two.html",
+    {
+        "filename": "generator-three.html",
+        "attr": {
+            "data-transition": "fade"
+        }
+    },
+    {
+        "filename": "generator-four.html",
+        "attr": {
+            "data-transition": "fade"
+        }
+    },
+    {
+        "filename": "generator-five.html",
+        "attr": {
+            "data-transition": "fade"
+        }
+    },
+    {
+        "filename": "generator-six.html",
+        "attr": {
+            "data-transition": "fade"
+        }
+    },
+    {
+        "filename": "generator-seven.html",
+        "attr": {
+            "data-transition": "fade"
+        }
+    },
+    "generator-combinator-one.html",
+    "generator-combinator.html",
+    "generator-combinator-two.html",
+    "generator-consumer-one.html",
+    {
+        "filename": "generator-consumer-two.html",
+        "attr": {
+            "data-transition": "fade"
+        }
+    },
+    {
+        "filename": "generator-consumer-three.html",
+        "attr": {
+            "data-transition": "fade"
+        }
+    },
+    {
+        "filename": "generator-consumer-four.html",
+        "attr": {
+            "data-transition": "fade"
+        }
+    },
+    {
+        "filename": "generator-consumer-five.html",
+        "attr": {
+            "data-transition": "fade"
+        }
+    }
 ]

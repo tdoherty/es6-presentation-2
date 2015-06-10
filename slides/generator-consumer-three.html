@@ -1,0 +1,15 @@
+<code>
+    <pre>
+    function* consumer() {
+      console.log('Received: '+ 1);
+      console.log('Received: '+ yield);
+      console.log('Received: '+ yield);
+    }
+
+    let c = consumer();
+    consumer.next();  // get it started
+    consumer.next(1); // Received 1
+
+
+    </pre>
+</code>

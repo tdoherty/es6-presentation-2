@@ -1,0 +1,15 @@
+<code>
+    <pre>
+    function* consumer() {
+      console.log('Received: '+ yield);
+      console.log('Received: '+ yield);
+      console.log('Received: '+ yield);
+    }
+
+    <span class="fragment">let c = consumer();
+    consumer.next();  // get it started</span>
+
+
+
+    </pre>
+</code>

@@ -1,0 +1,21 @@
+<code>
+    <pre>
+    function* even(iterable) {
+      let iter = iterable[Symbol.iterator]();
+      let next = iter.next();
+      while(!next.done) {
+        if (next.value % 2 === 0) {
+          yield next;
+        }
+        next = iter.next();
+      }
+    }
+
+    <span class="fragment">function* take(n, iterable) {
+      let iter = iterable[Symbol.iterator]();
+      while(n--) {
+        yield (iter.next()).value;
+      }
+    }</span>
+    </pre>
+</code>
