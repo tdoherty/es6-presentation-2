@@ -1,0 +1,12 @@
+<code>
+    <pre>
+    let sym = Symbol();
+    <span class="fragment">let obj = {
+      [sym]: 'foo',
+      bar: 'baz'
+    };</span>
+
+    <span class="fragment">obj[sym] // 'foo'</span>
+    <span class="fragment">Object.getOwnPropertyNames(obj) // ['bar']</span>
+    </pre>
+</code>
