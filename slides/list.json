@@ -166,6 +166,25 @@
             "attr": {
                 "data-transition": "fade"
             }
+        },
+        "generator-async-six.html",
+        {
+            "filename": "generator-async-seven.html",
+            "attr": {
+                "data-transition": "fade"
+            }
+        },
+        {
+            "filename": "generator-async-eight.html",
+            "attr": {
+                "data-transition": "fade"
+            }
+        },
+        {
+            "filename": "generator-async-nine.html",
+            "attr": {
+                "data-transition": "fade"
+            }
         }
     ]
 ]
