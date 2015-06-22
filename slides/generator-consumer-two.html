@@ -1,13 +1,15 @@
 <code>
     <pre>
-    function* consumer() {
+    function* observer() {
       console.log('Received: '+ yield);
       console.log('Received: '+ yield);
       console.log('Received: '+ yield);
     }
 
-    <span class="fragment">let c = consumer();
-    consumer.next();  // get it started</span>
+    let c = observer();
+
+    <span class="fragment">// note: no param to `next()` here
+    observer.next();</span>
 
 
 

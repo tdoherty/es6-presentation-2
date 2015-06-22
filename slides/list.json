@@ -3,13 +3,15 @@
     [
         "previously.html",
         "why-javascript2.html",
+        "why-javascript.html",
         "why-javascript3.html",
-        "why-javascript.html"
+        "why-javascript-four.html"
     ],
     "overview.html",
     [
         "object-one.html",
         "object-two.html",
+        "object-two-b.html",
         "object-three.html",
         "object-four.html",
         "object-five.html"
@@ -89,9 +91,10 @@
                 "data-transition": "fade"
             }
         },
+        "generator-nine.html",
         "generator-combinator-one.html",
         "generator-combinator.html",
-        "generator-combinator-two.html",
+        "generator-eight.html",
         "generator-consumer-one.html",
         {
             "filename": "generator-consumer-two.html",
@@ -186,5 +189,7 @@
                 "data-transition": "fade"
             }
         }
-    ]
+    ],
+    "resources.html",
+    "thanks.html"
 ]

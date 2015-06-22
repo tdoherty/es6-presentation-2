@@ -2,15 +2,13 @@
 <pre>
 let iterable = {
   [Symbol.iterator]() {
-    var n = 3, i = 1, r;
+    var n = 3, i = 1;
     return {
       next() {
-        r = {value: undefined, done: true};
         if (i <= n) {
-          r.value = i++;
-          r.done = false;
+          return {value: i, done: false};
         }
-        return r;
+        return {value: undefined, done: true};
       }
     }
   }

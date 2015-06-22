@@ -1,14 +1,16 @@
 <code>
     <pre>
-    function* consumer() {
-      console.log('Received: '+ 1);
+    function* observer() {
+      console.log('Received: '+ <span style="color:yellow;">1</span>);
       console.log('Received: '+ yield);
       console.log('Received: '+ yield);
     }
 
-    let c = consumer();
-    consumer.next();  // get it started
-    consumer.next(1); // Received 1
+    let c = observer();
+
+    // note: no param to `next()` here
+    observer.next();
+    observer.next(1); // Received 1
 
 
     </pre>
