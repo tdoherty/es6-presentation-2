@@ -37,6 +37,7 @@
         "string-six.html",
         "string-seven.html",
         "string-eight.html",
+        "string-ten.html",
         "string-nine.html"
     ],
     [
@@ -54,11 +55,14 @@
         "iterator-five.html",
         "iterator-six.html",
         "iterator-seven.html",
+        "iterator-seven-b.html",
+        "iterator-seven-c.html",
         "iterator-eight-b.html",
         "iterator-eight.html"
     ],
     [
         "generator-one.html",
+        "generator-one-b.html",
         "generator-two-b.html",
         "generator-two.html",
         {
@@ -191,5 +195,7 @@
         }
     ],
     "resources.html",
-    "thanks.html"
+    "thanks.html",
+    "iterator-seven-b.html",
+    "iterator-seven-c.html"
 ]
